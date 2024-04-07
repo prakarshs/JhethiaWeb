@@ -1,6 +1,11 @@
 const welcomeId = document.querySelectorAll('#welcome');
 console.log(welcomeId);
-welcomeId.addEventListener("click",function(){
-    console.log("clicked");
-    document.getElementById('audio').play();
+welcomeId.forEach(button => {
+    button.addEventListener("click", function(){
+        console.log("clicked");
+        const audio = document.getElementById('audio');
+        if (audio) {
+            audio.play();
+        }
+    });
 });
