@@ -28,4 +28,7 @@ html,body{
 .transition{
     transition: all ease 0.3s;
 }
+.transition2{
+    transition: all ease 0.6s;
+}
 
