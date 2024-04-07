@@ -1,6 +1,6 @@
-const welcomeId = document.querySelectorAll('#welcome');
+const welcomeIds = document.querySelectorAll('#welcome');
 console.log(welcomeId);
-welcomeId.forEach(button => {
+welcomeIds.forEach(button => {
     button.addEventListener("click", function(){
         console.log("clicked");
         const audio = document.getElementById('audio');
