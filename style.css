@@ -41,6 +41,9 @@ html,body{
 #links{
     gap: 10VW;
 }
+.card-image>img{
+    height: 20vw;
+}
 
 @media (max-width: 768px) {
 
