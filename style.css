@@ -36,7 +36,6 @@ html,body{
 
     #home{
         padding: 0;
-        background-color: blue;
     }
     #home1{
         padding: 2rem 1rem;
@@ -49,8 +48,8 @@ html,body{
         font-size: 5rem;
     }
     #img2{
-        width: 350px;
-        height: 150px;
+        width: 90vw;
+        height: 30vw;
         object-fit: cover;
     }
     #card-container{
