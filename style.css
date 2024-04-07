@@ -32,6 +32,7 @@ html,body{
     transition: all ease 0.5s;
 }
 
+
 @media (max-width: 768px) {
 
     #home{
