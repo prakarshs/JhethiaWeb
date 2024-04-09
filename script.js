@@ -8,3 +8,21 @@ welcomeIds.forEach(button => {
         }
     });
 });
+
+function copyTxt() {
+    
+    var codeElement = document.getElementById("copyText");
+    var text = codeElement.textContent || codeElement.innerText;
+    console.log(text)
+  
+    navigator.clipboard.writeText(text)
+    .then(() => {
+      // Alert the user that the text has been copied (you can also use other feedback mechanisms)
+      alert("Text has been copied to clipboard: " + text);
+    })
+    .catch(err => {
+      console.error('Failed to copy: ', err);
+      // Handle errors if any
+    });
+  
+  }
