@@ -68,6 +68,23 @@ html,body{
     #card-container{
         margin:0;
     }
+    #bigInstall{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    #installation{
+        margin-bottom: 30vh;
+    }
+    #installBox{
+        display: flex;
+        flex-direction: column;
+        gap: 5vw;
+    }
+    #copyText{
+        font-size: small;  
+    }
 
     
 }
